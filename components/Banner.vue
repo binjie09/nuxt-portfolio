@@ -2,10 +2,10 @@
   <section class="hero is-fullheight">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
+        <h1 class="main-title">
           Hello, I'm Romain
         </h1>
-        <h2 class="subtitle">
+        <h2 class="main-subtitle">
           This is my portfolio
         </h2>
         <button class="main-btn">
@@ -18,7 +18,7 @@
 
 <style scoped lang="scss">
 .hero {
-  .title {
+  .main-title {
     font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     display: block;
@@ -28,7 +28,7 @@
     letter-spacing: 1px;
   }
 
-  .subtitle {
+  .main-subtitle {
     font-weight: 300;
     font-size: 42px;
     color: #526488;
